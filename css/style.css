@@ -1,0 +1,52 @@
+body{
+	background-color: rgb(0,255,108);margin:0px;font-family: mix;
+	scrollbar-face-color: #b46868;
+}
+#wrapper{
+	width:100%;margin:0px auto;min-height: 700px;background-color: #fff;
+}
+.cookie{
+	position: absolute;*background-color: #1abc9c;z-index: 6;*margin-left: -30%;
+}
+#cookie:hover{
+
+}
+input[type="text"]{
+	border-radius: 20px 20px 20px 20px;
+}
+#nav{
+	width:100%;color:#fff;top:0;z-index: 3;height: 100px;*text-align: right;
+	*background:#000;*opacity: 0.9;margin: 0px;display: inline-block;vertical-align: center;
+	padding-top: 0;padding-bottom: 1.4%;margin-bottom: 20px;
+}
+.nav-item{
+	float: right;
+	display: inline-block;margin-right: 3%;font-size: 20px;padding: 0;*background-color: #FFBF00;
+	border-radius: 0px 0px 5px 5px;height:auto;min-width: 80px;padding-bottom: 2%;color:#fff;
+	text-align: center;font-family: mix;vertical-align: center;font-weight: bold;margin-top: 0px;
+	background: #ccc;height: 20px;padding: 5px;background: #505050;padding-bottom: 10px;color: #fafafa;
+}
+.nav-item:hover{
+	cursor: pointer;background: rgb(200,50,50);
+}
+
+.tabs{
+	min-height:700px;width:fill;
+}
+a{
+	text-decoration: none;color:white;
+}
+
+#navbar{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 80px;
+}
+
+
+@font-face{font-family: 'mix';src:url("Roboto.ttf");}
+@font-face{font-family: 'pix';src:url("TrajanPro-Regular.otf");}
+@font-face{font-family: 'dix';src:url("Stainy.ttf");}
